@@ -5,7 +5,7 @@
 ## TEST CASES 
 
 ```
-1)Verify that upon opening the app user lands in Search page, verify elements in search and favourite pages.  
+1)Upon opening the app user lands in Search page, verify elements in search and favourite pages.  
 2)Verify Search functionality, make sure that every search result contains the search keyword (case - insensitive). Clear Search and make sure that user is shown no search results.  
 3)Verify Search results(Title and description) in search and more info pages.  
 4)Verify favourite/Unfavourite functionality.
