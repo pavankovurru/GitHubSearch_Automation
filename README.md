@@ -4,26 +4,31 @@
 
 ## TEST CASES 
 
+```
 1)Verify that upon opening the app user lands in Search page, verify elements in search and favourite pages.  
 2)Verify Search functionality, make sure that every search result contains the search keyword (case - insensitive). Clear Search and make sure that user is shown no search results.  
 3)Verify Search results(Title and description) in search and more info pages.  
 4)Verify favourite/Unfavourite functionality.
+```
 
 
 ## RUNNING PROJECT
 
 ### Pre-requisites
 
+```
 1)Install XCODE.  
 2)Install appium desktop or APPIUM 1.6 or higher using npm install -g appium. make sure appium is running.  
 3)Install [home brew] (https://brew.sh/)  
 4)brew install libimobiledevice - open source package which is able to communicate with iOS devices.  
 5)brew install ios-deploy - for transferring iOS apps onto your device.  
 6)brew install carthage.  
+```
 
+`Run project by running src/test/resources/testNG_IOS.xml`  
 
-Run project by running src/test/resources/testNG_IOS.xml
 Note : tests are configured to run on ios simulator , testNG_IOS.xml can be configured to run on real devices and emulators too.
+
 
 
 
